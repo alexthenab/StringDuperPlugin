@@ -44,6 +44,7 @@ public class StringDuperPlugin extends JavaPlugin implements Listener {
         recipe.addIngredient(Material.TRIPWIRE_HOOK);
         recipe.addIngredient(Material.OAK_TRAPDOOR);
         recipe.addIngredient(Material.OAK_TRAPDOOR);
+        recipe.addIngredient(Material.SHEARS);
 
         getServer().addRecipe(recipe);
     }
@@ -83,7 +84,7 @@ public class StringDuperPlugin extends JavaPlugin implements Listener {
                     }
                 }
             }
-        }.runTaskTimer(this, 20 * 20, 20 * 20); // every 20 seconds
+        }.runTaskTimer(this, 20 * 15, 20 * 15); // every 20 seconds
     }
 
     @EventHandler
