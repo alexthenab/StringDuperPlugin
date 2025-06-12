@@ -1,0 +1,4 @@
+name: StringDuperPlugin
+version: '1.0-SNAPSHOT'
+main: alexthenab.stringDuperPlugin.StringDuperPlugin
+api-version: '1.21'
